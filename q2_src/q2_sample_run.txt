@@ -1,0 +1,20 @@
+PS C:\Users\malpr\OneDrive\Desktop\CSCI 4171\Assign3\q2_src> py q2_client.py 
+=== CRC Demo (Q2) ===
+Enter M (binary): 110100111101
+Enter G (binary, starts with 1): 1011
+Transmitted frame (P): 110100111101000
+Enter received frame (blank = use P): 110100111101000
+Flip one bit? (y/n): y
+Bit index to flip [0..14]: 5
+Modified received frame: 110101111101000
+Validation: ERROR DETECTED
+
+
+PS C:\Users\malpr\OneDrive\Desktop\CSCI 4171\Assign3\q2_src> py q2_client.py
+=== CRC Demo (Q2) ===
+Enter M (binary): 110100111101
+Enter G (binary, starts with 1): 1011
+Transmitted frame (P): 110100111101000
+Enter received frame (blank = use P): 110100111101000
+Flip one bit? (y/n): n
+Validation: NO ERROR DETECTED
